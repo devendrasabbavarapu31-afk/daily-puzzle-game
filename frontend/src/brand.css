@@ -1,0 +1,49 @@
+:root {
+  --bs-primary: #0B5ED7;
+  --bs-secondary: #084298;
+  --bs-accent: #FFC107;
+  --bs-bg: #F8F9FA;
+  --bs-text-dark: #212529;
+  --bs-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bs-bg);
+  color: var(--bs-text-dark);
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--bs-secondary);
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+:root {
+  --bs-primary: #0b5ed7;   /* Bluestock Blue */
+  --bs-secondary: #f1f5ff;
+  --bs-text: #1f2937;
+  --bs-border: #e5e7eb;
+  --bs-bg: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--bs-secondary);
+  color: var(--bs-text);
+}
+
